@@ -72,11 +72,9 @@ const Index = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-              <Icon name="Music" className="text-white" size={24} />
-            </div>
+            <img src="https://cdn.poehali.dev/files/9b10ca61-9c13-4dac-bb19-e31cfd2c53bc.png" alt="Beat Empire" className="h-12 w-12 object-contain" />
             <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              BeatStore
+              Beat Empire
             </h1>
           </div>
 
@@ -168,8 +166,10 @@ const Index = () => {
 
   const renderHero = () => (
     <section className="relative py-20 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background to-secondary/20" />
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDE4YzAgMS4xLS45IDItMiAycy0yLS45LTItMiAuOS0yIDItMiAyIC45IDIgMm0tMTQgMGMwIDEuMS0uOSAyLTIgMnMtMi0uOS0yLTIgLjktMiAyLTIgMiAuOSAyIDJtMjggMGMwIDEuMS0uOSAyLTIgMnMtMi0uOS0yLTIgLjktMiAyLTIgMiAuOSAyIDIiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-30" />
+      <div className="absolute inset-0 bg-gradient-to-br from-red-950/40 via-background to-red-900/20" />
+      <div className="absolute inset-0 flex items-center justify-center opacity-10">
+        <img src="https://cdn.poehali.dev/files/9b10ca61-9c13-4dac-bb19-e31cfd2c53bc.png" alt="" className="w-96 h-96 object-contain" />
+      </div>
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
@@ -363,12 +363,10 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                <Icon name="Music" className="text-white" size={24} />
-              </div>
-              <span className="text-xl font-bold">BeatStore</span>
+              <img src="https://cdn.poehali.dev/files/9b10ca61-9c13-4dac-bb19-e31cfd2c53bc.png" alt="Beat Empire" className="h-10 w-10 object-contain" />
+              <span className="text-xl font-bold">Beat Empire</span>
             </div>
-            <p className="text-muted-foreground text-sm">© 2024 BeatStore. Все права защищены.</p>
+            <p className="text-muted-foreground text-sm">© 2024 Beat Empire. Все права защищены.</p>
             <div className="flex gap-4">
               <Button variant="ghost" size="icon">
                 <Icon name="Instagram" size={20} />
